@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `crewAIInc/crewAI`
+- 미러 저장소: `martinlee-git/crewAI`
+- 원문 문서: https://github.com/crewAIInc/crewAI/blob/main/lib/crewai-tools/README.md
+- 미러 경로: `lib/crewai-tools/README.md`
+
+## 한글 요약
+
+<div align="center" <div align="left" CrewAI 도구 강력하고 사용자 정의 가능한 도구를 사용하여 CrewAI 에이전트의 역량을 강화하고 정교한 실제 작업을 처리할 수 있습니다. CrewAI 도구는 에이전트를 확장하는 데 필수적인 기능을 제공하여 신뢰할 수 있고 바로 사용할 수 있는 도구 또는 요구 사항에 정확하게 맞춰진 맞춤형 솔루션을 통해 자동화를 신속하게 향상할 수 있도록 도와줍니다. 빠른 링크 홈페이지 | 문서 | 예 | 커뮤니티에서 사용 가능한 도구 CrewAI는 에이전트를 향상할 준비가 된 강력한 도구의 광범위한 컬렉션을 제공합니다. 파일 관리: FileReadTool, FileWriteTool 웹 스크래핑: ScrapeWebsiteTool, SeleniumScrapingTool 데이터베이스 통합: MySQLSearchTool 벡터 데이터베이스 통합: MongoDBVectorSearchTool, QdrantVectorSearchTool, WeaviateVectorSearchTool API 통합: SerperApiTool, ExaSearchTool AI 기반 도구: DallETool, VisionTool, StagehandTool 및 더욱 강력한 도구를 통해 에이전트 통합. 맞춤형 도구 Cre 생성
+
+## 핵심 발췌
+
+wAI는 사용자 정의 도구를 생성하는 두 가지 간단한 접근 방식을 제공합니다. BaseTool 서브클래싱 서브클래싱을 통해 도구 정의: 도구 데코레이터 사용 데코레이터를 사용하여 경량 도구를 빠르게 생성: CrewAI 도구 및 MCP CrewAI 도구는 MCP(모델 컨텍스트 프로토콜)를 지원합니다. 커뮤니티에서 구축한 수백 대의 MCP 서버에서 수천 개의 도구에 액세스할 수 있습니다. CrewAI 도구와 함께 MCP 사용을 시작하기 전에 mcp 추가 종속성을 설치해야 합니다. CrewAI에서 MCP를 빠르게 시작하려면 두 가지 옵션이 있습니다. 옵션 1: 완전 관리형 연결 이 시나리오에서는 contextmanager(with 문)를 사용하여 MCP 서버와의 연결을 시작하고 중지합니다. 이 작업은 백그라운드에서 수행되며 MCP se에 해당하는 CrewAI 도구와만 상호 작용할 수 있습니다.
+
+## 원문 내용
+
 <div align="center">
 
 ![Logo of crewAI, two people rowing on a boat](./assets/crewai_logo.png)
