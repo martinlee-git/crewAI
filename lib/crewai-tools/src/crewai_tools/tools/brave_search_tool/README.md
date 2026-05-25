@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `crewAIInc/crewAI`
+- 미러 저장소: `martinlee-git/crewAI`
+- 원문 문서: https://github.com/crewAIInc/crewAI/blob/main/lib/crewai-tools/src/crewai_tools/tools/brave_search_tool/README.md
+- 미러 경로: `lib/crewai-tools/src/crewai_tools/tools/brave_search_tool/README.md`
+
+## 한글 요약
+
+BraveSearchTool 문서 설명 이 도구는 인터넷의 텍스트 콘텐츠에서 지정된 쿼리에 대한 웹 검색을 수행하도록 설계되었습니다. Brave Search를 쿼리하고 웹에서 검색 결과를 가져오는 REST API인 Brave Web Search API를 활용합니다. 다음 섹션에서는 매개변수 및 헤더를 포함한 요청을 Brave Web Search API에 선별하고 JSON 응답을 다시 받는 방법을 설명합니다. 설치 이 도구를 프로젝트에 통합하려면 아래 설치 지침을 따르십시오. 예 다음 예는 도구를 초기화하고 주어진 쿼리로 검색을 실행하는 방법을 보여줍니다. 시작하기 단계 BraveSearchTool을 효과적으로 사용하려면 다음 단계를 따르십시오. 1. 패키지 설치 : 크루아이[tools] 패키지가 Python 환경에 설치되어 있는지 확인합니다. 2. API 키 취득 : 여기에서 API 키를 취득하세요. 3. 환경 구성 : 획득한 API 키를 BRAVE API KEY라는 환경 변수에 저장하여 사용자가 쉽게 사용할 수 있도록 합니다.
+
+## 핵심 발췌
+
+전자 도구. 결론 BraveSearchTool을 Python 프로젝트에 통합함으로써 사용자는 애플리케이션에서 직접 인터넷을 통해 실시간 관련 검색을 수행할 수 있는 능력을 얻게 됩니다. 제공된 설정 및 사용 지침을 준수하면 이 도구를 프로젝트에 간단하고 간단하게 통합할 수 있습니다.
+
+## 원문 내용
+
 # BraveSearchTool Documentation
 
 ## Description
