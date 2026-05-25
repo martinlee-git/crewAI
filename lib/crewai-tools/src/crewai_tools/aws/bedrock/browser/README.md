@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `crewAIInc/crewAI`
+- 미러 저장소: `martinlee-git/crewAI`
+- 원문 문서: https://github.com/crewAIInc/crewAI/blob/main/lib/crewai-tools/src/crewai_tools/aws/bedrock/browser/README.md
+- 미러 경로: `lib/crewai-tools/src/crewai_tools/aws/bedrock/browser/README.md`
+
+## 한글 요약
+
+AWS Bedrock 브라우저 도구 이 도구 키트는 AWS Bedrock 브라우저를 통해 웹 브라우저와 상호 작용하기 위한 도구 세트를 제공합니다. 이를 통해 CrewAI 에이전트는 웹사이트 탐색, 콘텐츠 추출, 요소 클릭 등을 수행할 수 있습니다. 기능 URL 탐색 및 웹 탐색 페이지에서 텍스트 및 하이퍼링크 추출 CSS 선택기를 사용하여 요소 클릭 브라우저 기록을 통해 뒤로 탐색 현재 웹페이지에 대한 정보 가져오기 스레드 기반 격리를 사용하는 다중 브라우저 세션 설치 필요한 종속성이 있는지 확인하십시오: 사용법 기본 사용법 사용 가능한 도구 도구 키트는 다음 도구를 제공합니다. 1. 브라우저 탐색 URL로 이동 2. 요소 클릭 CSS 선택기를 사용하여 요소 클릭 3. 텍스트 추출 현재 웹페이지에서 모든 텍스트 추출 4. 하이퍼링크 추출 현재 웹페이지에서 모든 하이퍼링크 추출 웹페이지 5. 요소 가져오기 CSS 선택기와 일치하는 요소 가져오기 6. 뒤로 탐색 이전 페이지로 이동 7. 현재 웹페이지 현재 웹페이지에 대한 정보 가져오기 고급
+
+## 핵심 발췌
+
+사용(비동기) 요구 사항 Bedrock AgentCore API에 액세스할 수 있는 AWS 계정 적절하게 구성된 AWS 자격 증명
+
+## 원문 내용
+
 # AWS Bedrock Browser Tools
 
 This toolkit provides a set of tools for interacting with web browsers through AWS Bedrock Browser. It enables your CrewAI agents to navigate websites, extract content, click elements, and more.
