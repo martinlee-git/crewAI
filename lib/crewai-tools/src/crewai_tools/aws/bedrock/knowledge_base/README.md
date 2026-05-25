@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `crewAIInc/crewAI`
+- 미러 저장소: `martinlee-git/crewAI`
+- 원문 문서: https://github.com/crewAIInc/crewAI/blob/main/lib/crewai-tools/src/crewai_tools/aws/bedrock/knowledge_base/README.md
+- 미러 경로: `lib/crewai-tools/src/crewai_tools/aws/bedrock/knowledge_base/README.md`
+
+## 한글 요약
+
+BedrockKBRetrieverTool BedrockKBRetrieverTool을 사용하면 CrewAI 에이전트가 자연어 쿼리를 사용하여 Amazon Bedrock 기술 자료에서 정보를 검색할 수 있습니다. 설치 요구 사항 구성된 AWS 자격 증명(환경 변수 또는 AWS CLI를 통해) boto3 및 python dotenv 패키지 Amazon Bedrock 기술 자료 사용에 대한 액세스 CrewAI 에이전트와 함께 도구를 사용하는 방법은 다음과 같습니다. 도구 인수 | 인수 | 유형 | 필수 | 기본값 | 설명 | | | | | | | | 지식 베이스 ID | str | 예 | 없음 | 지식베이스의 고유 식별자(0 10 영숫자) | | 결과 수 | 정수 | 아니요 | 5 | 반환할 최대 결과 수 | | 검색 구성 | 사전 | 아니요 | 없음 | 기술 자료 쿼리에 대한 사용자 정의 구성 | | 가드레일 구성 | 사전 | 아니요 | 없음 | 콘텐츠 필터링 설정 | | 다음 토큰 | str | 아니요 | 없음 | 페이지 매김을 위한 토큰 | 환경 변수 응답 형식 도구는 JSON 형식으로 결과를 반환합니다. 고급 사용법 Custo
+
+## 핵심 발췌
+
+m 검색 구성 지원되는 데이터 소스 Amazon S3 Confluence Salesforce SharePoint 웹 페이지 사용자 정의 문서 위치 Amazon Kendra SQL 데이터베이스 사용 사례 엔터프라이즈 지식 통합 CrewAI 에이전트가 민감한 데이터를 노출하지 않고 조직의 독점 지식에 액세스할 수 있도록 에이전트가 회사의 특정 정책, 절차 및 문서에 따라 결정을 내릴 수 있도록 허용 데이터 보안을 유지하면서 내부 문서를 기반으로 질문에 답할 수 있는 에이전트 생성 전문 도메인 지식 모델 재교육 없이 도메인별 지식 기반(법률, 의료, 기술)에 CrewAI 에이전트 연결 기존 활용 귀하의 AWS 환경에서 이미 유지관리되고 있는 지식 저장소 CrewAI의 추론과 도메인별 추론을 결합합니다.
+
+## 원문 내용
+
 # BedrockKBRetrieverTool
 
 The `BedrockKBRetrieverTool` enables CrewAI agents to retrieve information from Amazon Bedrock Knowledge Bases using natural language queries.
