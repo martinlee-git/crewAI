@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `crewAIInc/crewAI`
+- 미러 저장소: `martinlee-git/crewAI`
+- 원문 문서: https://github.com/crewAIInc/crewAI/blob/main/lib/crewai-tools/src/crewai_tools/tools/dalle_tool/README.MD
+- 미러 경로: `lib/crewai-tools/src/crewai_tools/tools/dalle_tool/README.MD`
+
+## 한글 요약
+
+DALL E 도구 설명 이 도구는 에이전트에 DALL E 모델을 사용하여 이미지를 생성하는 기능을 제공하는 데 사용됩니다. 텍스트 설명에서 이미지를 생성하는 변환기 기반 모델입니다. 이 도구를 사용하면 에이전트는 사용자가 입력한 텍스트를 기반으로 이미지를 생성할 수 있습니다. 설치 Crewai 도구 패키지 설치 예 이 도구를 사용할 때 에이전트 자체에서 텍스트를 생성해야 한다는 점을 기억하십시오. 텍스트는 생성하려는 이미지에 대한 설명이어야 합니다. 필요한 경우 DALLETool 클래스에 인수로 전달하여 DALL E 모델의 매개변수를 조정할 수도 있습니다. 예: 매개변수는 OpenAI API의 client.images.generate 메소드를 기반으로 합니다. 매개변수에 대한 자세한 내용은 OpenAI API 문서를 참고하세요.
+
+## 핵심 발췌
+
+DALL E 도구 ## 설명 이 도구는 에이전트에 DALL E 모델을 사용하여 이미지를 생성하는 기능을 제공하는 데 사용됩니다. 텍스트 설명에서 이미지를 생성하는 변환기 기반 모델입니다. 이 도구를 사용하면
+
+## 원문 내용
+
 # DALL-E Tool
 
 ## Description
