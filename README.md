@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `crewAIInc/crewAI`
+- 미러 저장소: `martinlee-git/crewAI`
+- 원문 문서: https://github.com/crewAIInc/crewAI/blob/main/README.md
+- 미러 경로: `README.md`
+
+## 한글 요약
+
+<p align="center" <a href="https://github.com/crewAIInc/crewAI" <img src="docs/images/crewai logo.png" width="600px" alt="오픈 소스 다중 AI 에이전트 조정 프레임워크" </a </p <p align="center" style="display: flex; justify content: center; gap: 20px; align items: center;" <a href="https://trendshift.io/repositories/11239" target=" 공백" <img src="https://trendshift.io/api/badge/repositories/11239" alt="crewAIInc%2FcrewAI | Trendshift" style="너비: 250px; 높이: 55px;" width="250" height="55"/ </a </p <p align="center" <a href="https://crewai.com" 홈페이지</a · <a href="https://docs.crewai.com" 문서</a · <a href="https://app.crewai.com" 클라우드 평가판 시작</a · <a href="https://blog.crewai.com" 블로그</a · <a href="https://community.crewai.com" 포럼</a </p <p align="center" <a href="https://github.com/crewAIInc/crewAI" <img src="https://img.shields.io/github/stars/crewAIInc/crewAI" alt="GitHub Repo 별" </a <a href="https://github.com/crewAIInc/crewAI/network/members" <img src=
+
+## 핵심 발췌
+
+"https://img.shields.io/github/forks/crewAIInc/crewAI" alt="GitHub 포크" </a <a href="https://github.com/crewAIInc/crewAI/issues" <img src="https://img.shields.io/github/issues/crewAIInc/crewAI" alt="GitHub 문제" </a <a href="https://github.com/crewAIInc/crewAI/pulls" <img src="https://img.shields.io/github/issues pr/crewAIInc/crewAI" alt="GitHub 풀 요청" </a <a href="https://opensource.org/licenses/MIT" <img src="https://img.shields.io/badge/License MIT green.svg" alt="라이센스: MIT" </a </p <p align="center" <a href="https://pypi.org/project/crewai/" <img src="https://img.shields.io/pypi/v/crewai" alt="PyPI 버전" </a <a href="https://pypi.org/project/crewai/" <img src="https://img.shields.io/pypi/dm/crewai" alt="PyPI 다운로드" </a <a href="https://twitter.com/crewAIInc" <img
+
+## 원문 내용
+
 <p align="center">
   <a href="https://github.com/crewAIInc/crewAI">
     <img src="docs/images/crewai_logo.png" width="600px" alt="Open source Multi-AI Agent orchestration framework">
