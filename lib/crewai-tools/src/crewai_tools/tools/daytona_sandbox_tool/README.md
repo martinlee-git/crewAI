@@ -7,7 +7,7 @@
 
 ## 한글 요약
 
-Daytona Sandbox 도구 쉘 명령을 실행하고, Python을 실행하고, Daytona 샌드박스 내에서 파일을 관리하세요. Daytona는 에이전트 기반 코드 실행에 적합한 격리된 임시 컴퓨팅 환경을 제공합니다. 에이전트에 실제로 필요한 것을 선택할 수 있도록 세 가지 도구가 제공됩니다. DaytonaExecTool — 셸 명령(sandbox.process.exec)을 실행합니다. DaytonaPythonTool — Python 스크립트를 실행합니다(sandbox.process.code 실행). DaytonaFileTool — 파일 읽기/쓰기/목록/삭제(sandbox.fs.). 설치 API 키 설정: DAYTONA API URL 및 DAYTONA TARGET도 설정된 경우 적용됩니다. 샌드박스 수명 주기 세 가지 도구 모두 DaytonaBaseTool의 동일한 수명 주기 제어를 공유합니다. | 모드 | 샌드박스가 생성되면 | 삭제된 경우 | | | | | | 임시(기본값, 지속적=False) | 모든 실행 호출 시 | 같은 통화가 끝나면 | | 지속적(지속적=True) | 처음 사용할 때 느리게 | 프로세스 종료 시(atexit를 통해) 또는 수동으로 tool.close() | | 첨부(샌드박스 ID="…") | 안 함 - 도구가 기존에 연결됩니다.
+Daytona Sandbox 도구 쉘 명령을 실행하고, Python을 실행하고, Daytona 샌드박스 내에서 파일을 관리하세요. Daytona는 에이전트 기반 코드 실행에 적합한 격리된 임시 컴퓨팅 환경을 제공합니다. 에이전트에 실제로 필요한 것을 선택할 수 있도록 세 가지 도구가 제공됩니다. DaytonaExecTool — 셸 명령(sandbox.process.exec)을 실행합니다. DaytonaPythonTool — Python 스크립트를 실행합니다(sandbox.process.code 실행). DaytonaFileTool — 파일 읽기/쓰기/목록/삭제(sandbox.fs.). 설치 API 키 설정: DAYTONA API URL 및 DAYTONA TARGET도 설정된 경우 적용됩니다. 샌드박스 수명 주기 세 가지 도구 모두 DaytonaBaseTool의 동일한 수명 주기 제어를 공유합니다. | 모드 | 샌드박스가 생성되면 | 삭제된 경우 | | | | | | 임시(기본값, 지속적=False) | 모든 실행 호출 시 | 같은 통화가 끝나면 | | 지속적(지속적=True) | 처음 사용할 때 느슨하게 | 프로세스 종료 시(atexit를 통해) 또는 수동으로 tool.close() | | 첨부(샌드박스 ID="…") | 안 함 - 도구가 기존에 연결됩니다.
 
 ## 핵심 발췌
 
