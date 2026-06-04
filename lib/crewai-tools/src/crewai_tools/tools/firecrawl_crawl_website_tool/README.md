@@ -11,7 +11,7 @@ FirecrawlCrawlWebsiteTool 설명 Firecrawl은 웹사이트를 크롤링하고 �
 
 ## 핵심 발췌
 
-FirecrawlCrawlWebsiteTool ## 설명 Firecrawl은 웹사이트를 크롤링하고 깨끗한 마크다운 또는 구조화된 데이터로 변환하는 플랫폼입니다. ## 버전 호환성 이 구현은
+FirecrawlCrawlWebsiteTool ## 설명 Firecrawl은 웹사이트를 크롤링하고 깔끔한 마크다운 또는 구조화된 데이터로 변환하는 플랫폼입니다. ## 버전 호환성 이 구현은
 
 ## 원문 내용
 
