@@ -11,7 +11,7 @@ shell pip install 'crewai[tools]' python from 크루ai tools import DirectoryRea
 
 ## 핵심 발췌
 
-``markdown # DirectoryReadTool ## 설명 DirectoryReadTool은 디렉토리 내용의 포괄적인 목록을 위해 설계된 매우 효율적인 유틸리티입니다. 지정된 디렉토리를 재귀적으로 탐색합니다.
+``markdown # DirectoryReadTool ## 설명 DirectoryReadTool은 디렉토리 내용의 포괄적인 목록을 위해 설계된 매우 효율적인 유틸리티입니다. 지정된 디렉터리를 재귀적으로 탐색합니다.
 
 ## 원문 내용
 
