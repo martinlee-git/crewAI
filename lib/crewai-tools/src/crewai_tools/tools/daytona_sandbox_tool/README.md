@@ -11,7 +11,7 @@ Daytona Sandbox 도구 쉘 명령을 실행하고, Python을 실행하고, Dayto
 
 ## 핵심 발췌
 
-샌드박스 | 안 함 - 도구가 생성하지 않은 샌드박스를 삭제하지 않습니다 | 임시 모드는 안전한 기본값입니다. 에이전트가 정리하는 것을 잊어버리면 아무것도 누출되지 않습니다. 파일 시스템 상태 또는 설치된 패키지를 여러 단계에 걸쳐 전달하려는 경우 영구 모드를 사용하십시오. 이는 DaytonaFileTool과 DaytonaExecTool을 페어링할 때 일반적입니다. 예 단발 Python 실행(일시적) 다단계 셸 세션(지속) 기존 샌드박스에 연결 사용자 정의 생성 매개변수 생성 생성 매개변수를 통해 Daytona의 CreateSandboxFromSnapshotParams kwargs 전달: 도구 인수 DaytonaExecTool 명령: str — 실행할 쉘 명령. cwd: str | 없음 — 작업 디렉터리. 환경: dict[str, str] | 없음 — 이 명령에 대한 추가 환경 변수입니다. 시간 초과: 정수 | 없음 – 초. DaytonaPythonTool 코드: str — 실행할 Python 소스입니다. argv: 목록[str]
+샌드박스 | 안 함 - 도구가 생성하지 않은 샌드박스를 삭제하지 않습니다 | 임시 모드는 안전한 기본값입니다. 에이전트가 정리하는 것을 잊어버리면 아무것도 누출되지 않습니다. 파일 시스템 상태 또는 설치된 패키지를 여러 단계에 걸쳐 전달하려는 경우 영구 모드를 사용하십시오. 이는 DaytonaFileTool과 DaytonaExecTool을 페어링할 때 일반적입니다. 예 일회성 Python 실행(임시) 다단계 셸 세션(영구) 기존 샌드박스에 연결 사용자 정의 생성 매개변수 생성 생성 매개변수를 통해 Daytona의 CreateSandboxFromSnapshotParams kwargs 전달: 도구 인수 DaytonaExecTool 명령: str — 실행할 쉘 명령. cwd: str | 없음 — 작업 디렉터리. 환경: dict[str, str] | 없음 — 이 명령에 대한 추가 환경 변수입니다. 시간 초과: 정수 | 없음 – 초. DaytonaPythonTool 코드: str — 실행할 Python 소스입니다. argv: 목록[str]
 
 ## 원문 내용
 
