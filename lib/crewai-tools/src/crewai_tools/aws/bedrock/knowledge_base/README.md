@@ -11,7 +11,7 @@ BedrockKBRetrieverTool BedrockKBRetrieverTool을 사용하면 CrewAI 에이전�
 
 ## 핵심 발췌
 
-m 검색 구성 지원되는 데이터 소스 Amazon S3 Confluence Salesforce SharePoint 웹 페이지 사용자 정의 문서 위치 Amazon Kendra SQL 데이터베이스 사용 사례 엔터프라이즈 지식 통합 CrewAI 에이전트가 민감한 데이터를 노출하지 않고 조직의 독점 지식에 액세스할 수 있도록 에이전트가 회사의 특정 정책, 절차 및 문서에 따라 결정을 내릴 수 있도록 허용 데이터 보안을 유지하면서 내부 문서를 기반으로 질문에 답할 수 있는 에이전트 생성 전문 도메인 지식 모델 재교육 없이 도메인별 지식 기반(법률, 의료, 기술)에 CrewAI 에이전트 연결 기존 활용 귀하의 AWS 환경에서 이미 유지관리되고 있는 지식 저장소 CrewAI의 추론과 도메인별 추론을 결합합니다.
+m Retrieval Configuration Supported Data Sources Amazon S3 Confluence Salesforce SharePoint Web pages Custom document locations Amazon Kendra SQL databases Use Cases Enterprise Knowledge Integration Enable CrewAI agents to access your organization's proprietary knowledge without exposing sensitive data Allow agents to make decisions based on your company's specific policies, procedures, and documentation Create agents that can answer questions based on your internal documentation while maintaining data security Specialized Domain Knowledge Connect CrewAI agents to domain specific knowledge bases (legal, medical, technical) without retraining models Leverage existing 귀하의 AWS 환경에서 이미 유지관리되고 있는 지식 저장소 CrewAI의 추론과 도메인별 추론을 결합합니다.
 
 ## 원문 내용
 
