@@ -11,7 +11,7 @@ ComposioTool 문서 설명 이 도구는 composio 도구 세트에 대한 래퍼
 
 ## 핵심 발췌
 
-ComposioTool Documentation ## 설명 이 도구는 composio 도구 세트의 래퍼이며 에이전트가 composio SDK의 다양한 도구에 액세스할 수 있도록 해줍니다. ## 설치 이 도구를 통합하려면 i
+ComposioTool Documentation ## 설명 이 도구는 composio 도구 세트에 대한 래퍼이며 에이전트가 composio SDK의 다양한 도구에 액세스할 수 있도록 해줍니다. ## 설치 이 도구를 통합하려면 i
 
 ## 원문 내용
 
