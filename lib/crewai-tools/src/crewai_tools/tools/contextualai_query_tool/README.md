@@ -7,7 +7,7 @@
 
 ## 한글 요약
 
-ContextualAIQueryTool 설명 이 도구는 Contextual AI의 엔터프라이즈급 RAG 에이전트를 CrewAI와 통합하도록 설계되었습니다. 이 도구를 실행하면 문서 및 지식 기반으로 사전 구성된 기존 Contextual AI RAG 에이전트를 쿼리할 수 있습니다. 설치 이 도구를 프로젝트에 통합하려면 아래 설치 지침을 따르십시오. 참고: Contextual AI API 키가 필요합니다. app.contextual.ai에 가입하여 무료 API 키를 받으세요. 예 이 도구를 사용하기 전에 이미 컨텍스트 에이전트를 생성하고 문서를 데이터 저장소에 수집했는지 확인하십시오. 결과에는 사용자 쿼리에 대해 생성된 답변이 포함됩니다. 매개변수 초기화: api key: 자신의 Contextual AI API 키 Query( run 메소드): query: 에이전트에 보낼 질문 또는 쿼리 Agent id: 쿼리할 기존 Contextual AI 에이전트의 ID(필수) datastore id: 문서 준비 확인을 위한 선택적 데이터 저장소 ID(제공하지 않을 경우 문서 상태 확인이 경고와 함께 비활성화됨) 주요 기능
+ContextualAIQueryTool 설명 이 도구는 Contextual AI의 엔터프라이즈급 RAG 에이전트를 CrewAI와 통합하도록 설계되었습니다. 이 도구를 실행하면 문서 및 지식 기반으로 사전 구성된 기존 Contextual AI RAG 에이전트를 쿼리할 수 있습니다. 설치 이 도구를 프로젝트에 통합하려면 아래 설치 지침을 따르십시오. 참고: Contextual AI API 키가 필요합니다. app.contextual.ai에 가입하여 무료 API 키를 받으세요. 예 이 도구를 사용하기 전에 이미 컨텍스트 에이전트를 생성하고 문서를 데이터 저장소에 수집했는지 확인하세요. 결과에는 사용자 쿼리에 대해 생성된 답변이 포함됩니다. 매개변수 초기화: api key: 자신의 Contextual AI API 키 Query( run 메소드): query: 에이전트에 보낼 질문 또는 쿼리 Agent id: 쿼리할 기존 Contextual AI 에이전트의 ID(필수) datastore id: 문서 준비 확인을 위한 선택적 데이터 저장소 ID(제공하지 않을 경우 문서 상태 확인이 경고와 함께 비활성화됨) 주요 기능
 
 ## 핵심 발췌
 
